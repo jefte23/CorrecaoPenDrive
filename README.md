@@ -1,9 +1,9 @@
 # CorrecaoPenDrive
 correção de pendrive com problema no windows
 
-Use o diskpart no Windows, <s>abra o cmd ou powershel como Admin </s> e digite:
+Use o diskpart no Windows, <u>abra o cmd ou powershel como Admin </u> e digite:
 
-´
+>
 <ul>
  <li>diskpart </li>
  <li>list disk </li>
@@ -16,4 +16,4 @@ Use o diskpart no Windows, <s>abra o cmd ou powershel como Admin </s> e digite:
  <li>active </li>
  <li>exit </li>
 </ul>
-´
+>
