@@ -4,16 +4,15 @@ correção de pendrive com problema no windows
 Use o diskpart no Windows, <i>abra o cmd ou powershel como Admin </i> e digite:
 
 
-><ul>
- <li>diskpart </li>
- <li>list disk </li>
- <li>select disk x (onde x é o número do pendrive) </li>
- <li>clean </li>
- <li>convert mbr </li>
- <li>create partition primary </li>
- <li>format fs=fat32 quick (ou fs=ntfs conforme sua escolha)</li>
- <li>assign </li>
- <li>active </li>
- <li>exit </li>
-</ul>
+> diskpart <br>
+> list disk <br>
+> select disk x (onde x é o número do pendrive) <br>
+> clean <br>
+> convert mbr <br>
+> create partition primary <br>
+> format fs=fat32 quick (ou fs=ntfs conforme sua escolha) <br>
+> assign <br>
+> active <br>
+> exit <br>
+
 
