@@ -1,10 +1,10 @@
 # CorrecaoPenDrive
 correção de pendrive com problema no windows
 
-Use o diskpart no Windows, <u>abra o cmd ou powershel como Admin </u> e digite:
+Use o diskpart no Windows, <i>abra o cmd ou powershel como Admin </i> e digite:
 
->
-<ul>
+
+><ul>
  <li>diskpart </li>
  <li>list disk </li>
  <li>select disk x (onde x é o número do pendrive) </li>
@@ -16,4 +16,4 @@ Use o diskpart no Windows, <u>abra o cmd ou powershel como Admin </u> e digite:
  <li>active </li>
  <li>exit </li>
 </ul>
->
+
